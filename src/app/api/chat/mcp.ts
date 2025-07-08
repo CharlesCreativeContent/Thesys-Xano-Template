@@ -27,11 +27,11 @@ export class MCPClient {
       const command = "pnpx";
       const args = [
         "mcp-remote",
-        "https://x6if-wu0q-dtak.n7.xano.io/x2/mcp/8PYbfPeh/mcp/sse",
+        process.env.MCP_SSE_URL,
         process.cwd(),
       ];
 
-      console.log("Connecting to Xano MCP server...");
+      console.log("Connecting to MCP server...");
 
       this.transport = new StdioClientTransport({
         command,
@@ -52,7 +52,7 @@ export class MCPClient {
       }));
 
       console.log(
-        `Connected to Xano MCP server with ${this.tools.length} tools:`,
+        `Connected to MCP server with ${this.tools.length} tools:`,
         this.tools.map((t) => t.function.name).join(", ")
       );
     } catch (e) {
