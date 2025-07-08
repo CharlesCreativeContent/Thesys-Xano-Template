@@ -168,3 +168,6 @@ The system includes visual thinking states that show users:
 - [Thinking States Guide](https://docs.thesys.dev/guides/thinking-states) - Visual progress indicators
 - [MCP Specification](https://spec.modelcontextprotocol.io/) - Model Context Protocol details
 - [MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk) - TypeScript SDK for MCP
+
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCharlesCreativeContent%2FThesys-Xano-Template&env=THESYS_API_KEY&envDescription=Thesys+Generative+UI+API+key+can+be+found+in+the+Thesys+console&envLink=https%3A%2F%2Fchat.thesys.dev%2Fconsole%2Fkeys&demo-title=C1+Generative+UI+API&demo-description=C1+Generative+UI+API+by+Thesys+is+designed+to+create+dynamic+and+intelligent+user+interfaces.+It+leverages+large+language+models+%28LLMs%29+to+generate+UI+components+in+real-time%2C+adapting+to+user+input+and+context.+Developers+can+integrate+C1+into+their+applications+to+enhance+user+engagement+with+visually+rich+and+responsive+interfaces.&demo-url=https%3A%2F%2Fchat.thesys.dev&demo-image=https%3A%2F%2Fgithub.com%2FCharlesCreativeContent%2FmyImages%2Fblob%2Fmain%2Fimages%2FC1Hero.png%3Fraw%3Dtrue&teamSlug=charlescreativecontents-projects)
