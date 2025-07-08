@@ -25,6 +25,7 @@ Set up your environment variables:
 
 ```bash
 export THESYS_API_KEY=<your-thesys-api-key>
+export MCP_SSE_URL=<your-mcp_sse_url>
 ```
 
 ### Installation
